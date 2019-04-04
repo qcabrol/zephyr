@@ -1,0 +1,9 @@
+# Kconfig - AELER ATLASV3 board configuration
+#
+# Copyright (c) 2019 AELER Technologies SA
+#
+# SPDX-License-Identifier: Apache-2.0
+
+config  BOARD_NRF52840_ATLASV3
+	bool "AELER ATLASV3"
+	depends on SOC_NRF52840_QIAA

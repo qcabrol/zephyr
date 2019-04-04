@@ -1,0 +1,32 @@
+# Kconfig - AELER ATLASV3 board configuration
+#
+# Copyright (c) 2019 AELER Technologies SA
+#
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_NRF52840_ATLASV3
+
+config BOARD
+	default "nrf52840_atlasv3"
+
+if USB
+
+config USB_NRF52840
+	default y
+
+config USB_DEVICE_STACK
+	default y
+
+endif # USB
+
+if IEEE802154
+
+config IEEE802154_NRF5
+	default y
+
+endif # IEEE802154
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_NRF52840_ATLASV3
