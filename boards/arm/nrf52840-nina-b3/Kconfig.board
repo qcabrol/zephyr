@@ -1,0 +1,9 @@
+# Kconfig - AELER NINAB3 board configuration
+#
+# Copyright (c) 2019 AELER Technologies SA
+#
+# SPDX-License-Identifier: Apache-2.0
+
+config  BOARD_NRF52840_NINAB3
+	bool "AELER NINAB3"
+	depends on SOC_NRF52840_QIAA

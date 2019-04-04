@@ -1,0 +1,13 @@
+identifier: nrf52840_aeler_nina_b3
+name: AELER NINAB3
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+supported:
+  - adc
+  - usb_device
+  - ble
+  - ieee802154
