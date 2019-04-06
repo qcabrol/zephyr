@@ -67,3 +67,7 @@ unset zephyr_answer_file
 zephyr_answer_file=~/.zephyrrc
 [ -f ${zephyr_answer_file} ] &&  . ${zephyr_answer_file};
 unset zephyr_answer_file
+
+
+export GNUARMEMB_TOOLCHAIN_PATH="/home/aeler-es/opt/gcc-arm-none-eabi-8-2018-q4-major"
+export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb
